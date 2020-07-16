@@ -1,0 +1,72 @@
+
+/* LOG-IN FIELDS */
+
+form{
+    text-align: center;
+    margin:auto;
+    top:auto;
+    position: relative;
+}
+
+input[type="password"],input[type="email"]{
+    border-color: royalblue;
+    border-width: 2px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* IMAGE AND TEXT */
+
+img{
+    width: 80px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+h1{
+    display:block;
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+}
+
+a{
+    position:absolute;
+    top:18px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 30px;
+    color: #282121;
+}
+
+/* MOBILE OPTIMIZATION */
+
+@media (min-width:720px){
+    form{
+        top: 280px;
+    }
+    img{
+        top:260px;
+    }
+    h1{
+        top: 270px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 719px){
+    form{
+        top:10px;
+    }
+    img{
+        top:6px;
+    }
+    h1{
+        top:8px;
+        font-weight: 400;
+    }
+}
+
+
