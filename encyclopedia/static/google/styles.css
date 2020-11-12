@@ -82,28 +82,4 @@ a{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#first {
-    right: 200px;
-    color: #282121;
-}
-a[href="advanced.html"]{
-    right: 120px;
-    color: #282121;
-}
-a[href="sign.html"]{
-    position: absolute;
-    background-color: #4585f4;
-    color: white;
-    width: 70px;
-    padding: 2px;
-    right: 30px;
-    text-align: center;
-    font-weight: 600;
-    top:16px;
-} 
-
-a[href="sign.html"]:hover{
-    color: white;
-    text-decoration: none;
-}
 
